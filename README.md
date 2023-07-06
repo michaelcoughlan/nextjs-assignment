@@ -2,6 +2,8 @@
 
 Assignment using NextJS to fetch the original 151 Pokemon from an API, including pagination functionality and a Pokemon detail page.
 
+To view the application on Vercel, use the following link: https://pokemon-nextjs-navy.vercel.app/
+
 ### Points of Improvement
 
 - The user would be able to update the page size, for now it is a constant `20`.
@@ -9,6 +11,7 @@ Assignment using NextJS to fetch the original 151 Pokemon from an API, including
 - I wanted to add the Pokemon sprite or image and a few more details into the Pokemon Card but I couldn't seem to find it in the API.
 - Moving to pages you have already visited on the pagination component will re-fetch the data we already had before, this could be cached or fixed with only using SSG.
 - I don't feel like I correctly implemented the requirement asking to mix SSG and CSR, it feels more like a hacky solution so I am curious as to a better way of implementing.
+- The responsiveness on mobile could definitely be improved!
 
 ### Architectural Decisions
 
