@@ -1,4 +1,4 @@
 export interface Props {
     currentPage: number;
-    pageSize: number;
+    changePage: (newPage: number) => void;
 }

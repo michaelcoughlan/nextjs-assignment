@@ -15,7 +15,6 @@ const PokemonCard = ({ id, moves, name, speciesInformation }: Props): ReactEleme
                 </div>
 
                 <div className="mt-4 text-md">
-                    <p>Base Happiness: {speciesInformation.base_happiness}</p>
                     <p>Capture Rate: {speciesInformation.capture_rate}%</p>
                     <p>Legendary? {speciesInformation.is_legendary ? 'Yes' : 'No'}</p>
                     <p>Mythical? {speciesInformation.is_mythical ? 'Yes' : 'No'}</p>

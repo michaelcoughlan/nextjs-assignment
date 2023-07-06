@@ -3,4 +3,5 @@ export interface Props {
     clickHandler?: () => void;
     isDisabled?: boolean;
     text: string;
+    type?: string;
 }

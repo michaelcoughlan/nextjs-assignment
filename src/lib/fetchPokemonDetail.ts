@@ -2,7 +2,7 @@ import { fetchPokemonDetailQuery } from '@/queries';
 import { PokemonDetail } from '@/types';
 
 export const fetchPokemonDetail = async (id: string): Promise<PokemonDetail> => {
-    const pokemonResponse = await fetch(process.env.BASE_API_URL || '', {
+    const pokemonResponse = await fetch(process.env.NEXT_PUBLIC_BASE_API_URL || '', {
         method: 'POST',
         body: JSON.stringify(fetchPokemonDetailQuery(id)),
     });

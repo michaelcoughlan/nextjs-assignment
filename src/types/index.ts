@@ -15,7 +15,6 @@ export interface Move {
 }
 
 export interface SpeciesInformation {
-    base_happiness: number;
     capture_rate: number;
     is_legendary: boolean;
     is_mythical: boolean;
