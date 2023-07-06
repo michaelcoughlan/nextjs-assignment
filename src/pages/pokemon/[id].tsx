@@ -32,7 +32,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
     const pokemonPaths = pokemonResponse.map((pokemon) => ({ params: { id: pokemon.id + '' }}));
 
     return {
-        fallback: true,
+        fallback: 'blocking',
         paths: pokemonPaths,
     };
 };
